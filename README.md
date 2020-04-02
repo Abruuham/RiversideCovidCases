@@ -43,6 +43,8 @@ This will give you:
 
 Where "Point_Count" is the number of cases within that city.
 
+For cities that have a space in the name such us "Moreno Valley" you will have to enter the name with a hypen: "Moreno-Valley".
+
 ### Try it out
 
 All you need to run this project on your computer is git and an IDE of your choice that can run Python applications. I am using IDLE to write this. You can download Python from here https://www.python.org/downloads/.
