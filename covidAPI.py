@@ -12,7 +12,8 @@ def index():
 
 @app.route('/city/<string:cityName>', methods=['GET'])
 def get_cases(cityName):
-
+    url_cityName = cityName.replace("-","+") + "%"
+    cityName = cityName.replace("-", " ")
     if (cityName.isdigit() and int(cityName) != 0):
         return jsonify({"Bad Request": "Value must be a string"}),400
     elif (cityName.isdigit() and int(cityName) == 0):
@@ -22,7 +23,8 @@ def get_cases(cityName):
         city_details = json.dumps(cases_obj['features'], sort_keys = True, indent = 4, separators = (',', ': '))
         return city_details
     else:
-        cities_url = city_names_url + cityName + '%27&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=false&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=true&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=false&quantizationParameters=&sqlFormat=none&f=pjson&token='
+        
+        cities_url = city_names_url + url_cityName + '27&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=false&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=true&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=false&quantizationParameters=&sqlFormat=none&f=pjson&token='
         data = urllib.request.urlopen(cities_url).read().decode()
         cases_obj = json.loads(data)
         try:
@@ -30,9 +32,10 @@ def get_cases(cityName):
                 city_details = json.dumps(cases_obj['features'], sort_keys = True, indent = 4, separators = (',', ': '))
                 return city_details
         except:
-            return "No data for target"
+            cityName = cityName.replace('-', ' ')
+            return "No data for target " + cityName + " "
             
-
+    return cityName + "\n"
 
 if __name__ == '__main__':
     app.run()
