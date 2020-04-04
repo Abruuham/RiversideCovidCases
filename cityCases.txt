@@ -1,816 +1,224 @@
-[
-    {
-        "attributes": {
-            "NAME": "Riverside",
-            "NAMELSAD": "Riverside city",
-            "OBJECTID": 1,
-            "Point_Count": 33,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0206009713788262,
-            "Shape__Length": 1.06927396949517
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Moreno Valley",
-            "NAMELSAD": "Moreno Valley city",
-            "OBJECTID": 2,
-            "Point_Count": 38,
-            "SUM_Deceased": 1,
-            "Shape__Area": 0.0129971505634785,
-            "Shape__Length": 0.792905281230317
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Corona",
-            "NAMELSAD": "Corona city",
-            "OBJECTID": 3,
-            "Point_Count": 23,
-            "SUM_Deceased": 1,
-            "Shape__Area": 0.0100954076960988,
-            "Shape__Length": 1.10061189669639
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Lake Elsinore",
-            "NAMELSAD": "Lake Elsinore city",
-            "OBJECTID": 4,
-            "Point_Count": 10,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0109650155059171,
-            "Shape__Length": 0.925946651691056
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Beaumont",
-            "NAMELSAD": "Beaumont city",
-            "OBJECTID": 5,
-            "Point_Count": 10,
-            "SUM_Deceased": 1,
-            "Shape__Area": 0.00765779877019668,
-            "Shape__Length": 0.781416037168385
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Hemet",
-            "NAMELSAD": "Hemet city",
-            "OBJECTID": 6,
-            "Point_Count": 7,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00737422788961339,
-            "Shape__Length": 0.723143051289378
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Norco",
-            "NAMELSAD": "Norco city",
-            "OBJECTID": 7,
-            "Point_Count": 2,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00354891912911626,
-            "Shape__Length": 0.367092256636879
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Cathedral City",
-            "NAMELSAD": "Cathedral City city",
-            "OBJECTID": 8,
-            "Point_Count": 12,
-            "SUM_Deceased": 1,
-            "Shape__Area": 0.00573707213584385,
-            "Shape__Length": 0.582636155076888
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "San Jacinto",
-            "NAMELSAD": "San Jacinto city",
-            "OBJECTID": 9,
-            "Point_Count": 2,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00658564488821867,
-            "Shape__Length": 0.59604286871399
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Palm Desert",
-            "NAMELSAD": "Palm Desert city",
-            "OBJECTID": 10,
-            "Point_Count": 24,
-            "SUM_Deceased": 1,
-            "Shape__Area": 0.00680726168775436,
-            "Shape__Length": 0.619816732835075
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Menifee",
-            "NAMELSAD": "Menifee city",
-            "OBJECTID": 11,
-            "Point_Count": 15,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0117416675725508,
-            "Shape__Length": 0.679048603886594
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Wildomar",
-            "NAMELSAD": "Wildomar city",
-            "OBJECTID": 12,
-            "Point_Count": 10,
-            "SUM_Deceased": 1,
-            "Shape__Area": 0.00596065768081644,
-            "Shape__Length": 0.354102717092059
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Calimesa",
-            "NAMELSAD": "Calimesa city",
-            "OBJECTID": 13,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00375460792429294,
-            "Shape__Length": 0.419438919985048
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Canyon Lake",
-            "NAMELSAD": "Canyon Lake city",
-            "OBJECTID": 14,
-            "Point_Count": 3,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00117236794744713,
-            "Shape__Length": 0.193090499815828
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Coachella",
-            "NAMELSAD": "Coachella city",
-            "OBJECTID": 15,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00757443720090123,
-            "Shape__Length": 0.610727531320882
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Indian Wells",
-            "NAMELSAD": "Indian Wells city",
-            "OBJECTID": 16,
-            "Point_Count": 6,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00367531531401255,
-            "Shape__Length": 0.305620708288368
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "La Quinta",
-            "NAMELSAD": "La Quinta city",
-            "OBJECTID": 17,
-            "Point_Count": 17,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00898120119381929,
-            "Shape__Length": 0.598371671534442
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Banning",
-            "NAMELSAD": "Banning city",
-            "OBJECTID": 18,
-            "Point_Count": 12,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00587737773435038,
-            "Shape__Length": 0.799499603120928
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Rancho Mirage",
-            "NAMELSAD": "Rancho Mirage city",
-            "OBJECTID": 19,
-            "Point_Count": 13,
-            "SUM_Deceased": 2,
-            "Shape__Area": 0.0064887443538737,
-            "Shape__Length": 0.515161546918055
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Temecula",
-            "NAMELSAD": "Temecula city",
-            "OBJECTID": 20,
-            "Point_Count": 24,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00936721122889139,
-            "Shape__Length": 0.723507089356683
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Desert Hot Springs",
-            "NAMELSAD": "Desert Hot Springs city",
-            "OBJECTID": 21,
-            "Point_Count": 6,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00773252845965544,
-            "Shape__Length": 0.739710803911253
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Palm Springs",
-            "NAMELSAD": "Palm Springs city",
-            "OBJECTID": 22,
-            "Point_Count": 30,
-            "SUM_Deceased": 3,
-            "Shape__Area": 0.0238758513471566,
-            "Shape__Length": 1.42632674261067
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Jurupa Valley",
-            "NAMELSAD": "Jurupa Valley city",
-            "OBJECTID": 23,
-            "Point_Count": 5,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0110399884979415,
-            "Shape__Length": 0.519153004250046
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Blythe",
-            "NAMELSAD": "Blythe city",
-            "OBJECTID": 24,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00689221164748233,
-            "Shape__Length": 1.01222661025061
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Indio",
-            "NAMELSAD": "Indio city",
-            "OBJECTID": 25,
-            "Point_Count": 23,
-            "SUM_Deceased": 2,
-            "Shape__Area": 0.00837425040322159,
-            "Shape__Length": 0.758248228031296
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Perris",
-            "NAMELSAD": "Perris city",
-            "OBJECTID": 26,
-            "Point_Count": 13,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00798520528542213,
-            "Shape__Length": 0.695589967436769
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Eastvale",
-            "NAMELSAD": "Eastvale city",
-            "OBJECTID": 27,
-            "Point_Count": 16,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0033127043661807,
-            "Shape__Length": 0.351007862509667
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Murrieta",
-            "NAMELSAD": "Murrieta city",
-            "OBJECTID": 28,
-            "Point_Count": 16,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00846278359517783,
-            "Shape__Length": 0.566936407045176
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Aguanga",
-            "NAMELSAD": "Aguanga CDP",
-            "OBJECTID": 29,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0034156674651058,
-            "Shape__Length": 0.379775163253417
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Anza",
-            "NAMELSAD": "Anza CDP",
-            "OBJECTID": 30,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00696059038932617,
-            "Shape__Length": 0.497836578508021
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Bermuda Dunes",
-            "NAMELSAD": "Bermuda Dunes CDP",
-            "OBJECTID": 31,
-            "Point_Count": 2,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000742498971249006,
-            "Shape__Length": 0.127887210613316
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Coronita",
-            "NAMELSAD": "Coronita CDP",
-            "OBJECTID": 32,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000151011442085291,
-            "Shape__Length": 0.101739553379323
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "East Hemet",
-            "NAMELSAD": "East Hemet CDP",
-            "OBJECTID": 33,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00131019654872944,
-            "Shape__Length": 0.182470219378519
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Cabazon",
-            "NAMELSAD": "Cabazon CDP",
-            "OBJECTID": 34,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00123525359367704,
-            "Shape__Length": 0.232346756919456
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Cherry Valley",
-            "NAMELSAD": "Cherry Valley CDP",
-            "OBJECTID": 35,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00202662344622695,
-            "Shape__Length": 0.278037042546748
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Desert Center",
-            "NAMELSAD": "Desert Center CDP",
-            "OBJECTID": 36,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00766642887606395,
-            "Shape__Length": 0.421202356220231
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Desert Edge",
-            "NAMELSAD": "Desert Edge CDP",
-            "OBJECTID": 37,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000572595938365339,
-            "Shape__Length": 0.113906500479113
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Desert Palms",
-            "NAMELSAD": "Desert Palms CDP",
-            "OBJECTID": 38,
-            "Point_Count": 3,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000673508845011384,
-            "Shape__Length": 0.120391629002343
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "El Cerrito",
-            "NAMELSAD": "El Cerrito CDP",
-            "OBJECTID": 39,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000708176823536633,
-            "Shape__Length": 0.164892411105177
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "El Sobrante",
-            "NAMELSAD": "El Sobrante CDP",
-            "OBJECTID": 40,
-            "Point_Count": 5,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00182327139009431,
-            "Shape__Length": 0.257863455580537
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "French Valley",
-            "NAMELSAD": "French Valley CDP",
-            "OBJECTID": 41,
-            "Point_Count": 12,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00273712841953966,
-            "Shape__Length": 0.274195656356307
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Good Hope",
-            "NAMELSAD": "Good Hope CDP",
-            "OBJECTID": 42,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00283171625801515,
-            "Shape__Length": 0.285477067960848
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Home Gardens",
-            "NAMELSAD": "Home Gardens CDP",
-            "OBJECTID": 43,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000381513095362607,
-            "Shape__Length": 0.118067563640118
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Idyllwild-Pine Cove",
-            "NAMELSAD": "Idyllwild-Pine Cove CDP",
-            "OBJECTID": 44,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00346065432177056,
-            "Shape__Length": 0.398534382207078
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Lakeland Village",
-            "NAMELSAD": "Lakeland Village CDP",
-            "OBJECTID": 45,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00227708785041614,
-            "Shape__Length": 0.429783907980141
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Lakeview",
-            "NAMELSAD": "Lakeview CDP",
-            "OBJECTID": 46,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000822259764163391,
-            "Shape__Length": 0.130719861273809
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Garnet",
-            "NAMELSAD": "Garnet CDP",
-            "OBJECTID": 47,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00199077683350879,
-            "Shape__Length": 0.219954970833274
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Green Acres",
-            "NAMELSAD": "Green Acres CDP",
-            "OBJECTID": 48,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000352849610862904,
-            "Shape__Length": 0.093393908062817
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Homeland",
-            "NAMELSAD": "Homeland CDP",
-            "OBJECTID": 49,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00107594839073499,
-            "Shape__Length": 0.147996495671235
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Indio Hills",
-            "NAMELSAD": "Indio Hills CDP",
-            "OBJECTID": 50,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0055152486913812,
-            "Shape__Length": 0.321242226193251
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Lake Mathews",
-            "NAMELSAD": "Lake Mathews CDP",
-            "OBJECTID": 51,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00401742913845737,
-            "Shape__Length": 0.341395446269681
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Lake Riverside",
-            "NAMELSAD": "Lake Riverside CDP",
-            "OBJECTID": 52,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00185408363336137,
-            "Shape__Length": 0.18767204256669
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "March ARB",
-            "NAMELSAD": "March ARB CDP",
-            "OBJECTID": 53,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00301377869527641,
-            "Shape__Length": 0.335340150812956
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Meadowbrook",
-            "NAMELSAD": "Meadowbrook CDP",
-            "OBJECTID": 54,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00169841008414551,
-            "Shape__Length": 0.199264888844517
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Mead Valley",
-            "NAMELSAD": "Mead Valley CDP",
-            "OBJECTID": 55,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00481407044776461,
-            "Shape__Length": 0.337098324307932
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Mecca",
-            "NAMELSAD": "Mecca CDP",
-            "OBJECTID": 56,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00175028690523504,
-            "Shape__Length": 0.187672774324307
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Mesa Verde",
-            "NAMELSAD": "Mesa Verde CDP",
-            "OBJECTID": 57,
-            "Point_Count": 2,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00108205089168223,
-            "Shape__Length": 0.179356137779365
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Mountain Center",
-            "NAMELSAD": "Mountain Center CDP",
-            "OBJECTID": 58,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000475130736731444,
-            "Shape__Length": 0.132442552111288
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Palo Verde",
-            "NAMELSAD": "Palo Verde CDP",
-            "OBJECTID": 59,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000148253715906321,
-            "Shape__Length": 0.0575333927731094
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "North Shore",
-            "NAMELSAD": "North Shore CDP",
-            "OBJECTID": 60,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00281103159136364,
-            "Shape__Length": 0.308156115676091
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Nuevo",
-            "NAMELSAD": "Nuevo CDP",
-            "OBJECTID": 61,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0017075254215797,
-            "Shape__Length": 0.24559066039119
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Oasis",
-            "NAMELSAD": "Oasis CDP",
-            "OBJECTID": 62,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00493476839278628,
-            "Shape__Length": 0.413660570727762
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Ripley",
-            "NAMELSAD": "Ripley CDP",
-            "OBJECTID": 63,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000427508557550027,
-            "Shape__Length": 0.102537562141581
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Romoland",
-            "NAMELSAD": "Romoland CDP",
-            "OBJECTID": 64,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.000666520610366206,
-            "Shape__Length": 0.134413087267337
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Sky Valley",
-            "NAMELSAD": "Sky Valley CDP",
-            "OBJECTID": 65,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00613874507848777,
-            "Shape__Length": 0.504827581289527
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Thermal",
-            "NAMELSAD": "Thermal CDP",
-            "OBJECTID": 66,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00236146812517291,
-            "Shape__Length": 0.267023321681097
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Thousand Palms",
-            "NAMELSAD": "Thousand Palms CDP",
-            "OBJECTID": 67,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00596237030026714,
-            "Shape__Length": 0.363558313709981
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Valle Vista",
-            "NAMELSAD": "Valle Vista CDP",
-            "OBJECTID": 68,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00178390847054288,
-            "Shape__Length": 0.245008017367311
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Whitewater",
-            "NAMELSAD": "Whitewater CDP",
-            "OBJECTID": 69,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00249446836528477,
-            "Shape__Length": 0.27468637090979
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Winchester",
-            "NAMELSAD": "Winchester CDP",
-            "OBJECTID": 70,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00201724157568606,
-            "Shape__Length": 0.257243957284058
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Woodcrest",
-            "NAMELSAD": "Woodcrest CDP",
-            "OBJECTID": 71,
-            "Point_Count": 2,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00287160193011005,
-            "Shape__Length": 0.391740777567022
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Temescal Valley",
-            "NAMELSAD": "Temescal Valley CDP",
-            "OBJECTID": 72,
-            "Point_Count": 1,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00488381114382719,
-            "Shape__Length": 0.587528621090866
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Vista Santa Rosa",
-            "NAMELSAD": "Vista Santa Rosa CDP",
-            "OBJECTID": 73,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00404799516536514,
-            "Shape__Length": 0.375955711647548
-        }
-    },
-    {
-        "attributes": {
-            "NAME": "Warm Springs",
-            "NAMELSAD": "Warm Springs CDP",
-            "OBJECTID": 74,
-            "Point_Count": 0,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.00035217267986809,
-            "Shape__Length": 0.0878257064268792
-        }
-    }
-]
+Aguanga: 
+ 	Cases: 0
+ 	Deaths: 0
+Anza: 
+ 	Cases: 3
+ 	Deaths: 0
+Banning: 
+ 	Cases: 18
+ 	Deaths: 0
+Beaumont: 
+ 	Cases: 12
+ 	Deaths: 1
+Bermuda Dunes: 
+ 	Cases: 2
+ 	Deaths: 0
+Blythe: 
+ 	Cases: 2
+ 	Deaths: 0
+Cabazon: 
+ 	Cases: 0
+ 	Deaths: 0
+Calimesa: 
+ 	Cases: 2
+ 	Deaths: 0
+Canyon Lake: 
+ 	Cases: 3
+ 	Deaths: 0
+Cathedral City: 
+ 	Cases: 17
+ 	Deaths: 1
+Cherry Valley: 
+ 	Cases: 1
+ 	Deaths: 0
+Coachella: 
+ 	Cases: 7
+ 	Deaths: 0
+Corona: 
+ 	Cases: 34
+ 	Deaths: 1
+Coronita: 
+ 	Cases: 0
+ 	Deaths: 0
+Desert Center: 
+ 	Cases: 0
+ 	Deaths: 0
+Desert Edge: 
+ 	Cases: 2
+ 	Deaths: 0
+Desert Hot Springs: 
+ 	Cases: 6
+ 	Deaths: 0
+Desert Palms: 
+ 	Cases: 3
+ 	Deaths: 0
+East Hemet: 
+ 	Cases: 1
+ 	Deaths: 0
+Eastvale: 
+ 	Cases: 22
+ 	Deaths: 1
+El Cerrito: 
+ 	Cases: 1
+ 	Deaths: 0
+El Sobrante: 
+ 	Cases: 8
+ 	Deaths: 0
+French Valley: 
+ 	Cases: 12
+ 	Deaths: 0
+Garnet: 
+ 	Cases: 0
+ 	Deaths: 0
+Good Hope: 
+ 	Cases: 2
+ 	Deaths: 0
+Green Acres: 
+ 	Cases: 1
+ 	Deaths: 0
+Hemet: 
+ 	Cases: 14
+ 	Deaths: 0
+Home Gardens: 
+ 	Cases: 1
+ 	Deaths: 0
+Homeland: 
+ 	Cases: 0
+ 	Deaths: 0
+Idyllwild-Pine Cove: 
+ 	Cases: 1
+ 	Deaths: 0
+Indian Wells: 
+ 	Cases: 8
+ 	Deaths: 0
+Indio Hills: 
+ 	Cases: 1
+ 	Deaths: 0
+Indio: 
+ 	Cases: 33
+ 	Deaths: 2
+Jurupa Valley: 
+ 	Cases: 7
+ 	Deaths: 0
+La Quinta: 
+ 	Cases: 17
+ 	Deaths: 0
+Lake Elsinore: 
+ 	Cases: 17
+ 	Deaths: 0
+Lake Mathews: 
+ 	Cases: 0
+ 	Deaths: 0
+Lake Riverside: 
+ 	Cases: 0
+ 	Deaths: 0
+Lakeland Village: 
+ 	Cases: 1
+ 	Deaths: 0
+Lakeview: 
+ 	Cases: 0
+ 	Deaths: 0
+March ARB: 
+ 	Cases: 0
+ 	Deaths: 0
+Mead Valley: 
+ 	Cases: 3
+ 	Deaths: 0
+Meadowbrook: 
+ 	Cases: 1
+ 	Deaths: 0
+Mecca: 
+ 	Cases: 2
+ 	Deaths: 0
+Menifee: 
+ 	Cases: 23
+ 	Deaths: 0
+Mesa Verde: 
+ 	Cases: 2
+ 	Deaths: 0
+Moreno Valley: 
+ 	Cases: 56
+ 	Deaths: 1
+Mountain Center: 
+ 	Cases: 0
+ 	Deaths: 0
+Murrieta: 
+ 	Cases: 33
+ 	Deaths: 0
+Norco: 
+ 	Cases: 3
+ 	Deaths: 0
+North Shore: 
+ 	Cases: 0
+ 	Deaths: 0
+Nuevo: 
+ 	Cases: 2
+ 	Deaths: 0
+Oasis: 
+ 	Cases: 1
+ 	Deaths: 0
+Palm Desert: 
+ 	Cases: 36
+ 	Deaths: 1
+Palm Springs: 
+ 	Cases: 43
+ 	Deaths: 3
+Palo Verde: 
+ 	Cases: 0
+ 	Deaths: 0
+Perris: 
+ 	Cases: 18
+ 	Deaths: 0
+Rancho Mirage: 
+ 	Cases: 15
+ 	Deaths: 2
+Ripley: 
+ 	Cases: 0
+ 	Deaths: 0
+Riverside: 
+ 	Cases: 52
+ 	Deaths: 0
+Romoland: 
+ 	Cases: 0
+ 	Deaths: 0
+San Jacinto: 
+ 	Cases: 6
+ 	Deaths: 0
+Sky Valley: 
+ 	Cases: 0
+ 	Deaths: 0
+Temecula: 
+ 	Cases: 36
+ 	Deaths: 0
+Temescal Valley: 
+ 	Cases: 1
+ 	Deaths: 0
+Thermal: 
+ 	Cases: 0
+ 	Deaths: 0
+Thousand Palms: 
+ 	Cases: 0
+ 	Deaths: 0
+Valle Vista: 
+ 	Cases: 0
+ 	Deaths: 0
+Vista Santa Rosa: 
+ 	Cases: 0
+ 	Deaths: 0
+Warm Springs: 
+ 	Cases: 0
+ 	Deaths: 0
+Whitewater: 
+ 	Cases: 0
+ 	Deaths: 0
+Wildomar: 
+ 	Cases: 13
+ 	Deaths: 1
+Winchester: 
+ 	Cases: 0
+ 	Deaths: 0
+Woodcrest: 
+ 	Cases: 3
+ 	Deaths: 0
+Riverside Total Cases: 608
+Riverside Total Deaths: 14
