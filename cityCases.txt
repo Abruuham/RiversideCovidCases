@@ -5,10 +5,10 @@ Anza:
  	Cases: 3
  	Deaths: 0
 Banning: 
- 	Cases: 18
+ 	Cases: 19
  	Deaths: 0
 Beaumont: 
- 	Cases: 12
+ 	Cases: 14
  	Deaths: 1
 Bermuda Dunes: 
  	Cases: 2
@@ -98,13 +98,13 @@ Indio:
  	Cases: 33
  	Deaths: 2
 Jurupa Valley: 
- 	Cases: 7
+ 	Cases: 8
  	Deaths: 0
 La Quinta: 
- 	Cases: 17
+ 	Cases: 18
  	Deaths: 0
 Lake Elsinore: 
- 	Cases: 17
+ 	Cases: 18
  	Deaths: 0
 Lake Mathews: 
  	Cases: 0
@@ -122,7 +122,7 @@ March ARB:
  	Cases: 0
  	Deaths: 0
 Mead Valley: 
- 	Cases: 3
+ 	Cases: 4
  	Deaths: 0
 Meadowbrook: 
  	Cases: 1
@@ -131,13 +131,13 @@ Mecca:
  	Cases: 2
  	Deaths: 0
 Menifee: 
- 	Cases: 23
+ 	Cases: 25
  	Deaths: 0
 Mesa Verde: 
  	Cases: 2
  	Deaths: 0
 Moreno Valley: 
- 	Cases: 56
+ 	Cases: 59
  	Deaths: 1
 Mountain Center: 
  	Cases: 0
@@ -159,15 +159,15 @@ Oasis:
  	Deaths: 0
 Palm Desert: 
  	Cases: 36
- 	Deaths: 1
+ 	Deaths: 2
 Palm Springs: 
- 	Cases: 43
- 	Deaths: 3
+ 	Cases: 46
+ 	Deaths: 5
 Palo Verde: 
  	Cases: 0
  	Deaths: 0
 Perris: 
- 	Cases: 18
+ 	Cases: 22
  	Deaths: 0
 Rancho Mirage: 
  	Cases: 15
@@ -176,19 +176,19 @@ Ripley:
  	Cases: 0
  	Deaths: 0
 Riverside: 
- 	Cases: 52
+ 	Cases: 55
  	Deaths: 0
 Romoland: 
  	Cases: 0
  	Deaths: 0
 San Jacinto: 
- 	Cases: 6
+ 	Cases: 7
  	Deaths: 0
 Sky Valley: 
  	Cases: 0
  	Deaths: 0
 Temecula: 
- 	Cases: 36
+ 	Cases: 38
  	Deaths: 0
 Temescal Valley: 
  	Cases: 1
@@ -212,7 +212,7 @@ Whitewater:
  	Cases: 0
  	Deaths: 0
 Wildomar: 
- 	Cases: 13
+ 	Cases: 14
  	Deaths: 1
 Winchester: 
  	Cases: 0
@@ -220,5 +220,5 @@ Winchester:
 Woodcrest: 
  	Cases: 3
  	Deaths: 0
-Riverside Total Cases: 608
-Riverside Total Deaths: 14
+Riverside Total Cases: 634
+Riverside Total Deaths: 17
