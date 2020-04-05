@@ -45,7 +45,7 @@ def get_cases(cityName):
 # cases and deaths associated with each in a readable list. At the end
 # will also be displayed the number total of cases and deaths
 @app.route('/city-list', methods=['GET'])
-def index():
+def list_cities():
     arr = []
     count = 0
     death_count = 0
