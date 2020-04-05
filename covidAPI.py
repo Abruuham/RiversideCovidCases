@@ -6,6 +6,9 @@ app = Flask(__name__)
 city_names_url = 'https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services/COVID_CASES_CDP/FeatureServer/1/query?where=NAME%3D%27'
 all_riv_url = 'https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services/COVID_CASES_CDP/FeatureServer/1/query?where=0%3D0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=false&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=true&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=false&quantizationParameters=&sqlFormat=none&f=pjson'
 
+list_url = 'https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services/COVID_CASES_CDP/FeatureServer/1/query?where=0%3D0&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=false&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=true&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=false&quantizationParameters=&sqlFormat=none&f=pjson'
+
+
 @app.route('/', methods=['GET'])
 def index():
     return 'OK'
@@ -36,6 +39,29 @@ def get_cases(cityName):
             return "No data for target " + cityName + " "
             
     return cityName + "\n"
+    
+    
+# Returns a list of all cities in alphabetical order, displaying
+# cases and deaths associated with each in a readable list. At the end
+# will also be displayed the number total of cases and deaths
+@app.route('/city-list', methods=['GET'])
+def index():
+    arr = []
+    count = 0
+    death_count = 0
+    data = urllib.request.urlopen(list_url).read().decode()
+    cases_obj = json.loads(data)
+    for city_name in cases_obj['features']:
+        arr.append(city_name['attributes']['NAME'] + ': \n \t' + "Cases: " +
+                   str(city_name['attributes']['Point_Count']) + "\n \t" +
+                   'Deaths: ' + str(city_name['attributes']['Sum_Deceased']))
+        count += city_name['attributes']['Point_Count']
+        death_count += city_name['attributes']['Sum_Deceased']
+    arr.sort()
+    return "\n".join(arr) + "\n" + "Riverside Total Cases: " + str(count) + "\n" + "Riverside Total Deaths: " + str(death_count) + "\n"
+
+
+
 
 if __name__ == '__main__':
     app.run()
