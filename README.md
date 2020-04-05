@@ -27,6 +27,7 @@ $git curl http://riverside-covid.herokuapp.com/city/Riverside
 ```
 
 This will give you:
+```json
     [
     {
         "attributes": {
@@ -40,10 +41,16 @@ This will give you:
         }
     }
 ]
+```
+
 
 Where "Point_Count" is the number of cases within that city.
 
 For cities that have a space in the name such us "Moreno Valley" you will have to enter the name with a hypen: "Moreno-Valley".
+
+# If you would rather not see everything in a JSON format, you can user this link: https://riverside-covid.herokuapp.com/city-list
+This will return a string of all the cities within the county in alphabetical order, displaying the name followed by the current cases count an death count in that city.
+
 
 ### Try it out
 
