@@ -23,7 +23,7 @@ If you want to pull all data down for all cities, just use the number 0 as the s
 
 
 ```sh
-$git curl http://riverside-covid.herokuapp.com/city/Riverside 
+$curl http://riverside-covid.herokuapp.com/city/Riverside 
 ```
 
 This will give you:
