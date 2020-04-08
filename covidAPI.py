@@ -1,9 +1,7 @@
-import requests, lxml
 from flask import Flask, jsonify, request
 import json
 import urllib.request
-from bs4 import BeautifulSoup
-import re
+
 
 app = Flask(__name__)
 city_names_url = 'https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services/COVID_CASES_CDP_PublicView/FeatureServer/1/query?where=NAME%3D%27'
