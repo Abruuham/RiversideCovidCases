@@ -1,224 +1,191 @@
-Aguanga: 
- 	Cases: 0
- 	Deaths: 0
-Anza: 
- 	Cases: 4
- 	Deaths: 0
-Banning: 
- 	Cases: 34
- 	Deaths: 1
-Beaumont: 
- 	Cases: 18
- 	Deaths: 1
-Bermuda Dunes: 
- 	Cases: 3
- 	Deaths: 0
-Blythe: 
- 	Cases: 2
- 	Deaths: 0
-Cabazon: 
- 	Cases: 0
- 	Deaths: 0
-Calimesa: 
- 	Cases: 3
- 	Deaths: 0
-Canyon Lake: 
- 	Cases: 3
- 	Deaths: 0
-Cathedral City: 
- 	Cases: 31
- 	Deaths: 1
-Cherry Valley: 
- 	Cases: 1
- 	Deaths: 0
-Coachella: 
- 	Cases: 37
- 	Deaths: 0
-Corona: 
- 	Cases: 48
- 	Deaths: 2
-Coronita: 
- 	Cases: 0
- 	Deaths: 0
-Desert Center: 
- 	Cases: 0
- 	Deaths: 0
-Desert Edge: 
- 	Cases: 2
- 	Deaths: 0
-Desert Hot Springs: 
- 	Cases: 8
- 	Deaths: 0
-Desert Palms: 
- 	Cases: 3
- 	Deaths: 0
-East Hemet: 
- 	Cases: 2
- 	Deaths: 0
-Eastvale: 
- 	Cases: 29
- 	Deaths: 1
-El Cerrito: 
- 	Cases: 3
- 	Deaths: 0
-El Sobrante: 
- 	Cases: 10
- 	Deaths: 0
-French Valley: 
- 	Cases: 12
- 	Deaths: 0
-Garnet: 
- 	Cases: 3
- 	Deaths: 0
-Good Hope: 
- 	Cases: 4
- 	Deaths: 0
-Green Acres: 
- 	Cases: 1
- 	Deaths: 0
-Hemet: 
- 	Cases: 19
- 	Deaths: 0
-Home Gardens: 
- 	Cases: 1
- 	Deaths: 0
-Homeland: 
- 	Cases: 0
- 	Deaths: 0
-Idyllwild-Pine Cove: 
- 	Cases: 2
- 	Deaths: 0
-Indian Wells: 
- 	Cases: 9
- 	Deaths: 0
-Indio Hills: 
- 	Cases: 1
- 	Deaths: 0
-Indio: 
- 	Cases: 55
- 	Deaths: 2
-Jurupa Valley: 
- 	Cases: 16
- 	Deaths: 0
-La Quinta: 
- 	Cases: 25
- 	Deaths: 0
-Lake Elsinore: 
- 	Cases: 25
- 	Deaths: 1
-Lake Mathews: 
- 	Cases: 0
- 	Deaths: 0
-Lake Riverside: 
- 	Cases: 0
- 	Deaths: 0
-Lakeland Village: 
- 	Cases: 1
- 	Deaths: 0
-Lakeview: 
- 	Cases: 0
- 	Deaths: 0
-March ARB: 
- 	Cases: 0
- 	Deaths: 0
-Mead Valley: 
- 	Cases: 6
- 	Deaths: 0
-Meadowbrook: 
- 	Cases: 1
- 	Deaths: 0
-Mecca: 
- 	Cases: 3
- 	Deaths: 0
-Menifee: 
- 	Cases: 37
- 	Deaths: 1
-Mesa Verde: 
- 	Cases: 2
- 	Deaths: 0
-Moreno Valley: 
- 	Cases: 94
- 	Deaths: 3
-Mountain Center: 
- 	Cases: 0
- 	Deaths: 0
-Murrieta: 
- 	Cases: 46
- 	Deaths: 1
-Norco: 
- 	Cases: 6
- 	Deaths: 0
-North Shore: 
- 	Cases: 0
- 	Deaths: 0
-Nuevo: 
- 	Cases: 2
- 	Deaths: 0
-Oasis: 
- 	Cases: 2
- 	Deaths: 0
-Palm Desert: 
- 	Cases: 46
- 	Deaths: 2
-Palm Springs: 
- 	Cases: 57
- 	Deaths: 7
-Palo Verde: 
- 	Cases: 0
- 	Deaths: 0
-Perris: 
- 	Cases: 42
- 	Deaths: 0
-Rancho Mirage: 
- 	Cases: 18
- 	Deaths: 2
-Ripley: 
- 	Cases: 0
- 	Deaths: 0
-Riverside: 
- 	Cases: 96
- 	Deaths: 1
-Romoland: 
- 	Cases: 0
- 	Deaths: 0
-San Jacinto: 
- 	Cases: 10
- 	Deaths: 0
-Sky Valley: 
- 	Cases: 1
- 	Deaths: 0
-Temecula: 
- 	Cases: 47
- 	Deaths: 0
-Temescal Valley: 
- 	Cases: 4
- 	Deaths: 0
-Thermal: 
- 	Cases: 1
- 	Deaths: 0
-Thousand Palms: 
- 	Cases: 2
- 	Deaths: 0
-Valle Vista: 
- 	Cases: 1
- 	Deaths: 0
-Vista Santa Rosa: 
- 	Cases: 0
- 	Deaths: 0
-Warm Springs: 
- 	Cases: 2
- 	Deaths: 0
-Whitewater: 
- 	Cases: 0
- 	Deaths: 0
-Wildomar: 
- 	Cases: 20
- 	Deaths: 1
-Winchester: 
- 	Cases: 0
- 	Deaths: 0
-Woodcrest: 
- 	Cases: 5
- 	Deaths: 0
-Riverside Total Cases: 1016
-Riverside Total Deaths: 28
+Anza:
+        Cases: 5
+        Deaths: 0
+Banning:
+        Cases: 48
+        Deaths: 1
+Beaumont:
+        Cases: 24
+        Deaths: 1
+Bermuda Dunes:
+        Cases: 3
+        Deaths: 0
+Blythe:
+        Cases: 2
+        Deaths: 0
+Cabazon:
+        Cases: 0
+        Deaths: 0
+Calimesa:
+        Cases: 3
+        Deaths: 0
+Canyon Lake:
+        Cases: 4
+        Deaths: 0
+Cathedral City:
+        Cases: 37
+        Deaths: 1
+Cherry Valley:
+        Cases: 1
+        Deaths: 0
+Coachella:
+        Cases: 40
+        Deaths: 0
+Corona:
+        Cases: 56
+        Deaths: 2
+Coronita:
+        Cases: 0
+        Deaths: 0
+Desert Edge:
+        Cases: 2
+        Deaths: 0
+Desert Hot Springs:
+        Cases: 12
+        Deaths: 0
+Desert Palms:
+        Cases: 3
+        Deaths: 0
+East Hemet:
+        Cases: 2
+        Deaths: 0
+Eastvale:
+        Cases: 31
+        Deaths: 2
+El Cerrito:
+        Cases: 4
+        Deaths: 0
+El Sobrante:
+        Cases: 10
+        Deaths: 0
+French Valley:
+        Cases: 16
+        Deaths: 0
+Garnet:
+        Cases: 3
+        Deaths: 0
+Good Hope:
+        Cases: 5
+        Deaths: 0
+Green Acres:
+        Cases: 1
+        Deaths: 0
+Hemet:
+        Cases: 23
+        Deaths: 0
+Home Gardens:
+        Cases: 2
+        Deaths: 0
+Homeland:
+        Cases: 1
+        Deaths: 0
+Idyllwild-Pine Cove:
+        Cases: 3
+        Deaths: 0
+Indian Wells:
+        Cases: 9
+        Deaths: 0
+Indio:
+        Cases: 58
+        Deaths: 2
+Jurupa Valley:
+        Cases: 23
+        Deaths: 0
+La Quinta:
+        Cases: 28
+        Deaths: 0
+Lake Elsinore:
+        Cases: 35
+        Deaths: 1
+Lake Mathews:
+        Cases: 1
+        Deaths: 0
+Lakeland Village:
+        Cases: 2
+        Deaths: 0
+Lakeview:
+        Cases: 0
+        Deaths: 0
+Mead Valley:
+        Cases: 8
+        Deaths: 0
+Meadowbrook:
+        Cases: 1
+        Deaths: 0
+Mecca:
+        Cases: 4
+        Deaths: 0
+Menifee:
+        Cases: 44
+        Deaths: 1
+Moreno Valley:
+        Cases: 126
+        Deaths: 5
+Murrieta:
+        Cases: 47
+        Deaths: 1
+Norco:
+        Cases: 6
+        Deaths: 0
+North Shore:
+        Cases: 0
+        Deaths: 0
+Nuevo:
+        Cases: 3
+        Deaths: 0
+Oasis:
+        Cases: 3
+        Deaths: 0
+Palm Desert:
+        Cases: 51
+        Deaths: 2
+Palm Springs:
+        Cases: 60
+        Deaths: 8
+Perris:
+        Cases: 46
+        Deaths: 0
+Rancho Mirage:
+        Cases: 18
+        Deaths: 3
+Riverside:
+        Cases: 198
+        Deaths: 1
+Romoland:
+        Cases: 0
+        Deaths: 0
+San Jacinto:
+        Cases: 10
+        Deaths: 0
+Sky Valley:
+        Cases: 1
+        Deaths: 0
+Temecula:
+        Cases: 55
+        Deaths: 0
+Temescal Valley:
+        Cases: 8
+        Deaths: 0
+Thermal:
+        Cases: 2
+        Deaths: 0
+Thousand Palms:
+        Cases: 2
+        Deaths: 0
+Valle Vista:
+        Cases: 1
+        Deaths: 0
+Vista Santa Rosa:
+        Cases: 0
+        Deaths: 0
+Wildomar:
+        Cases: 22
+        Deaths: 1
+Winchester:
+        Cases: 0
+        Deaths: 0
+Woodcrest:
+        Cases: 5
+        Deaths: 0
+Riverside Total Cases: 1218
+Riverside Total Deaths: 33
