@@ -1,191 +1,189 @@
-Anza:
-        Cases: 5
-        Deaths: 0
-Banning:
-        Cases: 49
-        Deaths: 1
-Beaumont:
-        Cases: 25
-        Deaths: 2
-Bermuda Dunes:
-        Cases: 3
-        Deaths: 0
-Blythe:
-        Cases: 2
-        Deaths: 0
-Cabazon:
-        Cases: 0
-        Deaths: 0
-Calimesa:
-        Cases: 3
-        Deaths: 0
-Canyon Lake:
-        Cases: 4
-        Deaths: 0
-Cathedral City:
-        Cases: 39
-        Deaths: 1
-Cherry Valley:
-        Cases: 1
-        Deaths: 0
-Coachella:
-        Cases: 42
-        Deaths: 0
-Corona:
-        Cases: 58
-        Deaths: 2
-Coronita:
-        Cases: 1
-        Deaths: 0
-Desert Edge:
-        Cases: 2
-        Deaths: 0
-Desert Hot Springs:
-        Cases: 13
-        Deaths: 0
-Desert Palms:
-        Cases: 3
-        Deaths: 0
-East Hemet:
-        Cases: 2
-        Deaths: 0
-Eastvale:
-        Cases: 32
-        Deaths: 2
-El Cerrito:
-        Cases: 4
-        Deaths: 0
-El Sobrante:
-        Cases: 10
-        Deaths: 0
-French Valley:
-        Cases: 19
-        Deaths: 0
-Garnet:
-        Cases: 3
-        Deaths: 0
-Good Hope:
-        Cases: 5
-        Deaths: 0
-Green Acres:
-        Cases: 1
-        Deaths: 0
-Hemet:
-        Cases: 27
-        Deaths: 0
-Home Gardens:
-        Cases: 3
-        Deaths: 0
-Homeland:
-        Cases: 1
-        Deaths: 0
-Idyllwild-Pine Cove:
-        Cases: 3
-        Deaths: 0
-Indian Wells:
-        Cases: 9
-        Deaths: 0
-Indio:
-        Cases: 61
-        Deaths: 2
-Jurupa Valley:
-        Cases: 25
-        Deaths: 0
-La Quinta:
-        Cases: 28
-        Deaths: 0
-Lake Elsinore:
-        Cases: 42
-        Deaths: 1
-Lake Mathews:
-        Cases: 1
-        Deaths: 0
-Lakeland Village:
-        Cases: 4
-        Deaths: 0
-Lakeview:
-        Cases: 0
-        Deaths: 0
-Mead Valley:
-        Cases: 10
-        Deaths: 0
-Meadowbrook:
-        Cases: 1
-        Deaths: 0
-Mecca:
-        Cases: 4
-        Deaths: 0
-Menifee:
-        Cases: 49
-        Deaths: 1
-Moreno Valley:
-        Cases: 129
-        Deaths: 4
-Murrieta:
-        Cases: 49
-        Deaths: 1
-Norco:
-        Cases: 6
-        Deaths: 0
-North Shore:
-        Cases: 0
-        Deaths: 0
-Nuevo:
-        Cases: 3
-        Deaths: 0
-Oasis:
-        Cases: 3
-        Deaths: 0
-Palm Desert:
-        Cases: 51
-        Deaths: 2
-Palm Springs:
-        Cases: 62
-        Deaths: 8
-Perris:
-        Cases: 48
-        Deaths: 0
-Rancho Mirage:
-        Cases: 19
-        Deaths: 3
-Riverside:
-        Cases: 211
-        Deaths: 6
-Romoland:
-        Cases: 0
-        Deaths: 0
-San Jacinto:
-        Cases: 10
-        Deaths: 0
-Sky Valley:
-        Cases: 1
-        Deaths: 0
-Temecula:
-        Cases: 56
-        Deaths: 0
-Temescal Valley:
-        Cases: 8
-        Deaths: 0
-Thermal:
-        Cases: 2
-        Deaths: 0
-Thousand Palms:
-        Cases: 2
-        Deaths: 0
-Valle Vista:
-        Cases: 2
-        Deaths: 0
-Vista Santa Rosa:
-        Cases: 0
-        Deaths: 0
-Wildomar:
-        Cases: 22
-        Deaths: 1
-Winchester:
-        Cases: 0
-        Deaths: 0
-Woodcrest:
-        Cases: 6
-        Deaths: 0
-Riverside Total Cases: 1284
-Riverside Total Deaths: 38
+Anza: 
+ 	Cases: 5
+ 	Deaths: 0
+Banning: 
+ 	Cases: 60
+ 	Deaths: 1
+Beaumont: 
+ 	Cases: 35
+ 	Deaths: 2
+Bermuda Dunes: 
+ 	Cases: 3
+ 	Deaths: 0
+Blythe: 
+ 	Cases: 1
+ 	Deaths: 0
+Cabazon: 
+ 	Cases: 1
+ 	Deaths: 0
+Calimesa: 
+ 	Cases: 11
+ 	Deaths: 0
+Canyon Lake: 
+ 	Cases: 5
+ 	Deaths: 0
+Cathedral City: 
+ 	Cases: 49
+ 	Deaths: 1
+Cherry Valley: 
+ 	Cases: 3
+ 	Deaths: 1
+Coachella: 
+ 	Cases: 60
+ 	Deaths: 0
+Corona: 
+ 	Cases: 77
+ 	Deaths: 3
+Coronita: 
+ 	Cases: 1
+ 	Deaths: 0
+Desert Edge: 
+ 	Cases: 2
+ 	Deaths: 0
+Desert Hot Springs: 
+ 	Cases: 18
+ 	Deaths: 0
+Desert Palms: 
+ 	Cases: 4
+ 	Deaths: 0
+East Hemet: 
+ 	Cases: 3
+ 	Deaths: 0
+Eastvale: 
+ 	Cases: 36
+ 	Deaths: 2
+El Cerrito: 
+ 	Cases: 4
+ 	Deaths: 0
+El Sobrante: 
+ 	Cases: 11
+ 	Deaths: 0
+French Valley: 
+ 	Cases: 20
+ 	Deaths: 0
+Garnet: 
+ 	Cases: 4
+ 	Deaths: 0
+Good Hope: 
+ 	Cases: 7
+ 	Deaths: 0
+Green Acres: 
+ 	Cases: 1
+ 	Deaths: 0
+Hemet: 
+ 	Cases: 59
+ 	Deaths: 1
+Home Gardens: 
+ 	Cases: 3
+ 	Deaths: 0
+Homeland: 
+ 	Cases: 1
+ 	Deaths: 0
+Idyllwild-Pine Cove: 
+ 	Cases: 3
+ 	Deaths: 0
+Indian Wells: 
+ 	Cases: 10
+ 	Deaths: 0
+Indio: 
+ 	Cases: 79
+ 	Deaths: 2
+Jurupa Valley: 
+ 	Cases: 41
+ 	Deaths: 0
+La Quinta: 
+ 	Cases: 31
+ 	Deaths: 0
+Lake Elsinore: 
+ 	Cases: 59
+ 	Deaths: 1
+Lake Mathews: 
+ 	Cases: 2
+ 	Deaths: 0
+Lakeland Village: 
+ 	Cases: 8
+ 	Deaths: 0
+Lakeview: 
+ 	Cases: 1
+ 	Deaths: 0
+Mead Valley: 
+ 	Cases: 15
+ 	Deaths: 0
+Meadowbrook: 
+ 	Cases: 1
+ 	Deaths: 0
+Mecca: 
+ 	Cases: 10
+ 	Deaths: 0
+Menifee: 
+ 	Cases: 66
+ 	Deaths: 1
+Moreno Valley: 
+ 	Cases: 168
+ 	Deaths: 6
+Murrieta: 
+ 	Cases: 58
+ 	Deaths: 1
+Norco: 
+ 	Cases: 8
+ 	Deaths: 0
+North Shore: 
+ 	Cases: 0
+ 	Deaths: 0
+Nuevo: 
+ 	Cases: 6
+ 	Deaths: 0
+Oasis: 
+ 	Cases: 3
+ 	Deaths: 0
+Palm Desert: 
+ 	Cases: 59
+ 	Deaths: 5
+Palm Springs: 
+ 	Cases: 70
+ 	Deaths: 8
+Perris: 
+ 	Cases: 61
+ 	Deaths: 0
+Rancho Mirage: 
+ 	Cases: 22
+ 	Deaths: 3
+Riverside: 
+ 	Cases: 266
+ 	Deaths: 8
+Romoland: 
+ 	Cases: 0
+ 	Deaths: 0
+San Jacinto: 
+ 	Cases: 14
+ 	Deaths: 0
+Sky Valley: 
+ 	Cases: 1
+ 	Deaths: 0
+Temecula: 
+ 	Cases: 66
+ 	Deaths: 0
+Temescal Valley: 
+ 	Cases: 12
+ 	Deaths: 0
+Thermal: 
+ 	Cases: 5
+ 	Deaths: 0
+Thousand Palms: 
+ 	Cases: 3
+ 	Deaths: 0
+Valle Vista: 
+ 	Cases: 2
+ 	Deaths: 0
+Vista Santa Rosa: 
+ 	Cases: 0
+ 	Deaths: 0
+Wildomar: 
+ 	Cases: 26
+ 	Deaths: 2
+Winchester: 
+ 	Cases: 1
+ 	Deaths: 0
+Woodcrest: 
+ 	Cases: 7
+ 	Deaths: 0
