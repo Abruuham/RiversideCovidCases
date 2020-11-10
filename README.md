@@ -34,10 +34,11 @@ This will give you:
             "NAME": "Riverside",
             "NAMELSAD": "Riverside city",
             "OBJECTID": 1,
-            "Point_Count": 33,
-            "SUM_Deceased": 0,
-            "Shape__Area": 0.0206009713788262,
-            "Shape__Length": 1.06927396949517
+            "Point_Count": 10329,
+            "SUM_Deceased": 233,
+            "SUM_Recovered": 9076,
+            "Shape__Area": 0.0206009713692765,
+            "Shape__Length": 1.06927397901312
         }
     }
 ]
