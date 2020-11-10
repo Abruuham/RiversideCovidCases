@@ -64,7 +64,12 @@ Open a terminal and "cd" into the folder. Then follow the steps below:
 $git init
 $git clone https://github.com/Abruuham/RiversideCovidCases.git
 ```
-Open the project in your ide of choice, I am using Visual Studio Code with the live server extension. This will help us run the API. One running on the local host, you can use any of the following links to get view the data:
+Open the project in your ide of choice, I am using Visual Studio Code with the live server extension. 
+If you prefer to run from the terminal then you can simply type:
+```sh
+$python3 covidAPI.py
+```
+This will help us run the API. One running on the local host, you can use any of the following links to get view the data:
 - localhost:{port}/city/0 - this will return the data for all cities as a json array
 - localhost:{port}/city/{city name} - the city name will depend on the city that you are looking for. Currently, only cities in Riverside county are shown. This means you can write the following cities: Riverside, Hemet, Menifee, Murrieta, etc.. If the city has two names such as French Valley, you will need to add a hyphen instead of a space such as French-Valley
 - localhost:{port}/city/allcases - this will simply return a number with all the cases
