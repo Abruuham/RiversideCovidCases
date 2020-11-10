@@ -23,7 +23,7 @@ If you want to pull all data down for all cities, just use the number 0 as the s
 
 
 ```sh
-$git clone http://riverside-covid.herokuapp.com/city/Riverside 
+$curl http://riverside-covid.herokuapp.com/city/Riverside 
 ```
 
 This will give you:
@@ -62,7 +62,7 @@ Open a terminal and "cd" into the folder. Then follow the steps below:
 
 ```sh
 $git init
-$git pull https://github.com/Abruuham/RiversideCovidCases.git
+$git clone https://github.com/Abruuham/RiversideCovidCases.git
 ```
 Open the project in your ide of choice, I am using Visual Studio Code with the live server extension. This will help us run the API. One running on the local host, you can use any of the following links to get view the data:
 - localhost:{port}/city/0 - this will return the data for all cities as a json array
